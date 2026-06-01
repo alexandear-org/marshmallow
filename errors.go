@@ -7,7 +7,7 @@ package marshmallow
 import (
 	"errors"
 	"fmt"
-	"github.com/mailru/easyjson/jlexer"
+	jlexer "github.com/perimeterx/marshmallow/internal/lexer"
 	"reflect"
 	"strings"
 )

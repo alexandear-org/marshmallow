@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-test/deep"
-	"github.com/mailru/easyjson/jlexer"
+	jlexer "github.com/perimeterx/marshmallow/internal/lexer"
 	"reflect"
 	"strings"
 	"testing"

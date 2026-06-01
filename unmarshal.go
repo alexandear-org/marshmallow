@@ -6,7 +6,7 @@ package marshmallow
 
 import (
 	"encoding/json"
-	"github.com/mailru/easyjson/jlexer"
+	jlexer "github.com/perimeterx/marshmallow/internal/lexer"
 	"reflect"
 )
 

@@ -162,7 +162,7 @@ func ExampleUnmarshalErrorHandling() {
 
 	// Output:
 	// ModeFailOnFirstError and valid value: v={Foo:bar Boo:[1 2 3]}, result=map[boo:[1 2 3] foo:bar], err=<nil>
-	// ModeFailOnFirstError and invalid value: result=map[], err=*jlexer.LexerError
+	// ModeFailOnFirstError and invalid value: result=map[], err=*lexer.LexerError
 	// ModeAllowMultipleErrors and valid value: v={Foo:bar Boo:[1 2 3]}, result=map[boo:[1 2 3] foo:bar], err=<nil>
 	// ModeAllowMultipleErrors and invalid value: result=map[boo:[1 2 3]], err=*marshmallow.MultipleLexerError
 	// ModeFailOverToOriginalValue and valid value: v={Foo:bar Boo:[1 2 3]}, result=map[boo:[1 2 3] foo:bar], err=<nil>
